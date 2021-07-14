@@ -30,8 +30,8 @@
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #fff;
         z-index: 999;
+        /* height와 overflow는 JS에서 처리 */
     }
 
     /* 상단영역 - 최소높이 없앰 */
@@ -55,6 +55,12 @@
     .logo img {
         width: 130px;
     }
+
+    /* 모바일 전용버튼 보이기 */
+    .mobtn {
+        display: block;
+    }
+
 
     /* 컨텐츠 박스 타이틀 h2요소 */
     .pbx h2 {
@@ -114,6 +120,17 @@
     /* 하단 로고 이미지 */
     .blogo img {
         width: 200px;
+    }
+
+
+
+    /* 위로가기 버튼 */
+    .tbtn {
+        right: 15px;
+        bottom: 200px;
+        border-radius: 4px;
+        height: 40px;
+        line-height: 40px;
     }
 
 }
